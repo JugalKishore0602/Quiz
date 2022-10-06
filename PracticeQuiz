@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+    <title>Practice QUIZ</title>
+    
+    <link rel="icon" href="https://st2.depositphotos.com/1915171/6207/v/600/depositphotos_62072697-stock-illustration-quiz-icon.jpg">
+ 
+</head>
+  <body>
+    <div class="intro py-3 bg-white">
+        <div class="container">
+        <h2 class="text-black display-3 text-center"><i><b>Practice</b> Quiz</i></h2>
+        </div>
+    </div>
+            
+      <div class="result py-4 bg-light text-center d-none">
+<div class="jumbotron lead">
+    <p><b>You've Scored : </b> <span class="text-primary display-3 p-3"></span></p>
+</div>
+</div>
+
+   <div class="container v1 bg-secondary text-white">
+       <h3></h3>
+       <!-- <h3>Practice Quiz</h3> -->
+       <form action="">
+<div class="my-5">
+    <p>1. If you are asked to do a modular software design, which combination of coupling and cohesions should you use for designing the software?</p>
+    <div class="form-check">
+    <input class="form-check-input" type="radio" name="q1" id="" value="A">
+    <label class="form-check-label" for="">High cohesion and high coupling</label>
+</div>
+<div class="form-check">
+    <input class="form-check-input" type="radio" name="q1" id="" value="B">
+    <label class="form-check-label" for="">Low cohesion and high coupling</label>
+</div>
+<div class="form-check">
+    <input class="form-check-input" type="radio" name="q1" id="" value="C">
+    <label class="form-check-label" for="">High cohesion and low coupling</label>
+</div>
+<div class="form-check">
+    <input class="form-check-input" type="radio" name="q1" id="" value="D">
+    <label class="form-check-label" for="">Low cohesion and low coupling</label>
+</div>
+</div>
+
+<div class="my-5">
+    <p>2. What kind of controlled structure is used when we don’t know the exact number of times a code needs to be executed?</p>
+    <div class="form-check">
+    <input class="form-check-input" type="radio" name="q2" id="" value="A">
+    <label class="form-check-label" for="">A. for</label>
+</div>
+<div class="form-check">
+    <input class="form-check-input" type="radio" name="q2" id="" value="B">
+    <label class="form-check-label" for="">B. while</label>
+</div>
+<div class="form-check">
+    <input class="form-check-input" type="radio" name="q2" id="" value="C">
+    <label class="form-check-label" for="">C. if-else</label>
+</div>
+<div class="form-check">
+    <input class="form-check-input" type="radio" name="q2" id="" value="D">
+    <label class="form-check-label" for="">D. switch</label>
+</div>
+</div>
+
+<div class="my-5">
+    <p>3. ______________________testing is done by client in the real world environment.</p>
+    <div class="form-check">
+    <input class="form-check-input" type="radio" name="q3" id="" value="A">
+    <label class="form-check-label" for="">A. System</label>
+</div>
+<div class="form-check">
+    <input class="form-check-input" type="radio" name="q3" id="" value="B">
+    <label class="form-check-label" for="">B. Alpha</label>
+</div>
+<div class="form-check">
+    <input class="form-check-input" type="radio" name="q3" id="" value="C">
+    <label class="form-check-label" for="">C. Beta</label>
+</div>
+<div class="form-check">
+    <input class="form-check-input" type="radio" name="q3" id="" value="D">
+    <label class="form-check-label" for="">D. Gamma</label>
+</div>
+</div>
+
+<div class="my-5">
+    <p>4. Predict the output
+What will be the output for the given code snippet
+startprogram
+public class Main {
+public static void main(String[] args) {
+try {
+System.out.println(4/0);
+try{
+Int[] a={1,2,3};
+System.out.println(a[3]);
+} catch(ArrayIndexOutOfBoundsException e) {
+System.out.println(“Out of bounds”);
+}
+}catch(ArthmeticException e){
+System.out.println(“ArithmaticException : divide by 0”);
+}
+}
+}
+endprogram</p>
+    <div class="form-check">
+    <input class="form-check-input" type="radio" name="q4" id="" value="A">
+    <label class="form-check-label" for="">A. out of bounds ArithmaticException : divide by 0</label>
+</div>
+<div class="form-check">
+    <input class="form-check-input" type="radio" name="q4" id="" value="B">
+    <label class="form-check-label" for="">B. ArithmaticException: divide by 0</label>
+</div>
+<div class="form-check">
+    <input class="form-check-input" type="radio" name="q4" id="" value="C">
+    <label class="form-check-label" for="">C. runtime error</label>
+</div>
+<div class="form-check">
+    <input class="form-check-input" type="radio" name="q4" id="" value="D">
+    <label class="form-check-label" for="">D. Out of Bounds</label>
+</div>
+</div>
+
+<div class="my-5">
+    <p>5. Arrow symbols in the flowchart is used to show the sequence of steps and the relationship among them. State true and false</p>
+    <div class="form-check">
+    <input class="form-check-input" type="radio" name="q5" id="" value="A">
+    <label class="form-check-label" for="">A. True</label>
+</div>
+<div class="form-check">
+    <input class="form-check-input" type="radio" name="q5" id="" value="B">
+    <label class="form-check-label" for="">B. False</label>
+</div>
+</div>
+
+<div class="my-5">
+    <p>6. Statement: For a logically cohesive module, there are some activities to be implemented. These activities are preferred from inside the module itself. Is the above given statement true? If not, choose the correct option to make it true.</p>
+    <div class="form-check">
+    <input class="form-check-input" type="radio" name="q6" id="" value="A">
+    <label class="form-check-label" for="">The activities are selected in a random manner.</label>
+</div>
+<div class="form-check">
+    <input class="form-check-input" type="radio" name="q6" id="" value="B">
+    <label class="form-check-label" for="">The activities are selected in a sorted manner.</label>
+</div>
+<div class="form-check">
+    <input class="form-check-input" type="radio" name="q6" id="" value="C">
+    <label class="form-check-label" for="">The given statement is true.</label>
+</div>
+<div class="form-check">
+    <input class="form-check-input" type="radio" name="q6" id="" value="D">
+    <label class="form-check-label" for="">The activities are selected from outside the module.</label>
+</div>
+</div>
+
+<div class="my-5">
+    <p>7. Which of the given statements is true about XP?</p>
+    <div class="form-check">
+    <input class="form-check-input" type="radio" name="q7" id="" value="A">
+    <label class="form-check-label" for="">A. XP narrows down towards a single project developed and numbered by a single team.
+b. 
+c. </label>
+</div>
+<div class="form-check">
+    <input class="form-check-input" type="radio" name="q7" id="" value="B">
+    <label class="form-check-label" for="">B. XP will not work in environment where the manager insists on complete documentation before
+the team begins to code</label>
+</div>
+<div class="form-check">
+    <input class="form-check-input" type="radio" name="q7" id="" value="C">
+    <label class="form-check-label" for="">C. XP is best suited to work with systems that have scalability issues.</label>
+</div>
+<div class="form-check">
+    <input class="form-check-input" type="radio" name="q7" id="" value="D">
+    <label class="form-check-label" for="">D. XP will work in the environment where programmers are separated geographically.</label>
+</div>
+</div>
+
+<div class="my-5">
+    <p>8. Which two phases of feature driven development are repeated until no more feature exist?
+a. Develop an overall model
+b. Plan by feature
+c. Design by feature
+d. Build a feature list
+e. Build by feature</p>
+    <div class="form-check">
+    <input class="form-check-input" type="radio" name="q8" id="" value="A">
+    <label class="form-check-label" for="">A. b and c</label>
+</div>
+<div class="form-check">
+    <input class="form-check-input" type="radio" name="q8" id="" value="B">
+    <label class="form-check-label" for="">B. b and e</label>
+</div>
+<div class="form-check">
+    <input class="form-check-input" type="radio" name="q8" id="" value="C">
+    <label class="form-check-label" for="">C. c and e</label>
+</div>
+<div class="form-check">
+    <input class="form-check-input" type="radio" name="q8" id="" value="D">
+    <label class="form-check-label" for="">D. d and b</label>
+</div>
+</div>
+
+<div class="my-5">
+    <p>9. Which of the following declarations will cause a compile time error?</p>
+    <div class="form-check">
+    <input class="form-check-input" type="radio" name="q9" id="" value="A">
+    <label class="form-check-label" for="">A. String[] nameArray = (5,3,2);</label>
+</div>
+<div class="form-check">
+    <input class="form-check-input" type="radio" name="q9" id="" value="B">
+    <label class="form-check-label" for="">B. String[] nameArray = new String[10];</label>
+</div>
+<div class="form-check">
+    <input class="form-check-input" type="radio" name="q9" id="" value="C">
+    <label class="form-check-label" for="">C. int[] scores =new int[5];</label>
+</div>
+<div class="form-check">
+    <input class="form-check-input" type="radio" name="q9" id="" value="D">
+    <label class="form-check-label" for="">D. int[] scores = null;</label>
+</div>
+</div>
+
+<div class="my-5">
+    <p>10. Information hiding is achieved through which OOP principle?</p>
+    <div class="form-check">
+    <input class="form-check-input" type="radio" name="q10" id="" value="A">
+    <label class="form-check-label" for="">A. Encapsulation</label>
+</div>
+<div class="form-check">
+    <input class="form-check-input" type="radio" name="q10" id="" value="B">
+    <label class="form-check-label" for="">B. Inheritance</label>
+</div>
+<div class="form-check">
+    <input class="form-check-input" type="radio" name="q10" id="" value="C">
+    <label class="form-check-label" for="">C. Hierarchy</label>
+</div>
+<div class="form-check">
+    <input class="form-check-input" type="radio" name="q10" id="" value="D">
+    <label class="form-check-label" for="">D. Typing</label>
+</div>
+</div>
+
+
+<input class="btn btn-success" type="submit" value="Submit">
+
+       </form>
+   </div>
+<script>
+    var key=['C','B','C','B','A','D','ABD','C','A','A'];
+    var r1=document.querySelector('.result');
+  var f1=document.querySelector('form');
+ 
+  f1.addEventListener('submit',function(e){
+    
+      e.preventDefault();
+      var score=0;
+    
+    const users=[f1.q1.value,f1.q2.value,f1.q3.value,f1.q4.value,f1.q5.value,f1.q6.value,f1.q7.value,f1.q8.value,f1.q9.value,f1.q10.value];
+    users.forEach(function(u1,index){
+        console.log(u1===key[index]);
+       if(u1===key[index]){
+score+=10;
+       }
+
+    })
+    
+    console.log(score);
+    scrollTo(0,0);
+    r1.classList.remove('d-none');
+    let output=0;
+
+
+var timer=setInterval(function(){
+r1.querySelector('span').textContent=`${output}/100`;
+if(output===score){
+    clearInterval(timer);
+}
+else{
+    output++;
+}
+},25)
+
+
+  })
+</script>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
